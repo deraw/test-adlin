@@ -15,6 +15,16 @@
           "name": "Retro Projecteur"
         }
       ],
+      "bookings": [
+        {
+          "start": "2025-04-24T12:39:29.812Z",
+          "end": "2025-04-25T17:31:39.489Z"
+        },
+        {
+          "start": "2025-04-26T12:39:29.812Z",
+          "end": "2025-04-27T17:31:39.489Z"
+        }
+      ],
       "createdAt": "2016-12-07T12:39:29.812Z",
       "updatedAt": "2016-12-08T17:31:39.489Z"
     },
@@ -29,6 +39,7 @@
           "name": "Retro Projecteur"
         }
       ],
+      "bookings": [],
       "createdAt": "2016-12-07T12:39:55.384Z",
       "updatedAt": "2016-12-07T13:33:37.184Z"
     },
@@ -38,6 +49,7 @@
       "description": "Salle Okjsdkso",
       "capacity": 11,
       "equipements": [],
+      "bookings": [],
       "createdAt": "2016-12-07T14:15:55.733Z",
       "updatedAt": "2016-12-09T16:45:19.025Z"
     },
@@ -56,6 +68,7 @@
           "name": "Retro Projecteur"
         }
       ],
+      "bookings": [],
       "createdAt": "2016-12-09T16:45:34.419Z",
       "updatedAt": "2016-12-09T16:45:34.419Z"
     },
@@ -74,6 +87,7 @@
           "name": "Retro Projecteur"
         }
       ],
+      "bookings": [],
       "createdAt": "2016-12-09T16:45:49.096Z",
       "updatedAt": "2016-12-09T16:45:49.096Z"
     }

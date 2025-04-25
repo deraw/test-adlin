@@ -5,6 +5,8 @@ This is a technical test for the ADLIN company. The goal of the test is to creat
 ## Notes and thoughts
 
 I've used Vuetify for the UI components to get a chance to play with version 3 a bit and to gain time on the UI.
+I've added IDs to the items in the list of rooms to be able to identify them in a more reliable way.
+I also would have liked to setup a proper lint configuration with Git Hooks, to configure a proper logger and so on!
 
 ## Front-End
 
