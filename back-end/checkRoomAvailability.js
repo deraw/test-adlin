@@ -2,8 +2,7 @@ const dayjs = require('dayjs')
 require('dayjs/locale/fr')
 
 function checkRoomAvailability(bookings, date, time, duration) {
-  if (!bookings || !date || !time || !duration) {
-    // Show room as available if missing any of the required parameters
+  if (!bookings.length) {
     return true
   }
 

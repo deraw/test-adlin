@@ -1,0 +1,6 @@
+export enum STATE_ENUM {
+  IDLE = 'IDLE',
+  LOADING = 'LOADING',
+  ERROR = 'ERROR',
+  SUCCESS = 'SUCCESS',
+}

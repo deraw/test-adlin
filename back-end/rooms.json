@@ -5,7 +5,7 @@
       "name": "Salle #1",
       "description": "Salle #1",
       "capacity": 5,
-      "equipements": [
+      "equipments": [
         {
           "id": "1",
           "name": "TV"
@@ -18,37 +18,50 @@
       "bookings": [
         {
           "start": "2025-04-24T12:39:29.812Z",
-          "end": "2025-04-25T17:31:39.489Z"
+          "end": "2025-04-24T17:31:39.489Z"
         },
         {
-          "start": "2025-04-26T12:39:29.812Z",
+          "start": "2025-04-25T12:39:29.812Z",
           "end": "2025-04-27T17:31:39.489Z"
+        },
+        {
+          "start": "2025-04-28T15:00",
+          "end": "2025-04-28T15:30:00+02:00"
         }
       ],
       "createdAt": "2016-12-07T12:39:29.812Z",
-      "updatedAt": "2016-12-08T17:31:39.489Z"
+      "updatedAt": "2025-04-25T23:25:46+02:00"
     },
     {
       "id": "2",
       "name": "Salle #2",
       "description": "Salle #2",
       "capacity": 10,
-      "equipements": [
+      "equipments": [
         {
           "id": "2",
           "name": "Retro Projecteur"
         }
       ],
-      "bookings": [],
+      "bookings": [
+        {
+          "start": "2025-04-27T20:00",
+          "end": "2025-04-27T20:15:00+02:00"
+        },
+        {
+          "start": "2025-04-28T12:00",
+          "end": "2025-04-28T12:15:00+02:00"
+        }
+      ],
       "createdAt": "2016-12-07T12:39:55.384Z",
-      "updatedAt": "2016-12-07T13:33:37.184Z"
+      "updatedAt": "2025-04-27T19:51:00+02:00"
     },
     {
       "id": "3",
       "name": "Salle Okjsdkso",
       "description": "Salle Okjsdkso",
       "capacity": 11,
-      "equipements": [],
+      "equipments": [],
       "bookings": [],
       "createdAt": "2016-12-07T14:15:55.733Z",
       "updatedAt": "2016-12-09T16:45:19.025Z"
@@ -58,7 +71,7 @@
       "name": "Salle de ouf",
       "description": "Salle de ouf",
       "capacity": 10,
-      "equipements": [
+      "equipments": [
         {
           "id": "1",
           "name": "TV"
@@ -77,7 +90,7 @@
       "name": "Salle nulle",
       "description": "Salle nulle",
       "capacity": 26,
-      "equipements": [
+      "equipments": [
         {
           "id": "1",
           "name": "TV"
