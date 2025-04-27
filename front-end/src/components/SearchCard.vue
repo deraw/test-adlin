@@ -85,7 +85,7 @@ function reset() {
   <VCard>
     <VForm
       ref="form"
-      validate-on="input lazy"
+      validate-on="submit lazy"
       @submit.prevent="submit"
     >
       <VCardTitle tag="h1">
