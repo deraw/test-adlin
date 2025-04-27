@@ -6,6 +6,7 @@ This is a technical test for the ADLIN company. The goal of the test is to creat
 
 - I've used Vuetify for the UI components to get a chance to play with version 3 a bit and to gain time on the UI.
 - I've added IDs to the items in the list of rooms to be able to identify them in a more reliable way.
+- I've added simple unit and end-to-end tests to demonstrate that they're configured and working. I didn't have time to write tests for all the components, but I wrote a few to show that I know how to do it.
 - Ideally the UI should be a bit more polished and the UX should be improved, but I had to focus on the main functionality of the app. It would be great to also ensure that the UI is able to handle the different edge cases that could happen.
 - Ideally the back-end should remove the bookings as they expire so that the list of bookings is up to date.
 - I worked on the main branch and didn't create atomic commits, it was easier to work this way as I was working alone.
