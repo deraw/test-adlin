@@ -101,6 +101,8 @@ function resetSearch() {
   url.searchParams.delete('equipments')
 
   window.history.replaceState({}, '', url)
+
+  fetchAllRooms()
 }
 </script>
 
