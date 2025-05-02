@@ -88,7 +88,8 @@ export default function useRooms() {
         state.value = STATE_ENUM.ERROR
         snackbarMessage.value = SNACKBAR_MESSAGE.ERROR
         showSnackbar.value = true
-        throw new Error('Network response was not ok')
+        console.error('Network response was not ok')
+        return
       }
 
       const jsonResponse: RoomApiResponse = await response.json()
@@ -106,7 +107,7 @@ export default function useRooms() {
     state.value = STATE_ENUM.LOADING
     try {
       const response = await fetch(`${import.meta.env.VITE_API_URL}/rooms/book`, {
-        method: 'POST',
+        method: 'PATCH',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -118,9 +119,20 @@ export default function useRooms() {
 
       if (!response.ok) {
         state.value = STATE_ENUM.ERROR
-        snackbarMessage.value = SNACKBAR_MESSAGE.BOOKING_FAILED
+        const error = await response.json()
+
+        if (error?.message) {
+          snackbarMessage.value = {
+            message: error.message,
+            color: 'error'
+          }
+        } else {
+          snackbarMessage.value = SNACKBAR_MESSAGE.BOOKING_FAILED
+        }
+
         showSnackbar.value = true
-        throw new Error('Network response was not ok')
+        console.error('Error booking room:', error.message)
+        return
       }
 
       const jsonResponse: RoomApiResponse = await response.json()

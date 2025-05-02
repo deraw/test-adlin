@@ -22,10 +22,6 @@ This is a technical test for the ADLIN company. The goal of the test is to creat
 
 TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-### Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
 ### Project Setup
 
 ```sh
@@ -73,4 +69,18 @@ npm run test:e2e -- --debug
 
 ```sh
 npm run lint
+```
+
+## Back-End
+
+### Project Setup
+
+```sh
+npm install
+```
+
+### Run the server
+
+```sh
+npm run start
 ```
